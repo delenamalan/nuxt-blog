@@ -27,8 +27,12 @@ p {
 }
 
 .list-dash > li:before {
-    display: inline-block;
-    content: "-";
-    width: 1em;
-    margin-left: -1em;
+  display: inline-block;
+  content: '-';
+  width: 1em;
+  margin-left: -1em;
+}
+
+h3 {
+  @apply text-xl;
 }
