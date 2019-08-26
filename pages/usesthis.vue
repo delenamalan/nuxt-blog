@@ -1,73 +1,70 @@
 <template>
-  <div class="container">
+  <div>
     <div>
-      <logo />
-      <h1 class="title">
-        Uses this
-      </h1>
-      <h2 class="subtitle">
-        My blog
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <ul class="list-dash">
+        <li>
+          <strong>Shell</strong>:
+          <a href="https://github.com/robbyrussell/oh-my-zsh">Oh-my-zsh</a>
+          using the
+          <a href="http://blog.ysmood.org/my-ys-terminal-theme/">ys</a> theme
+          and the
+          <a href="https://github.com/zsh-users/zsh-autosuggestions"
+            >zsh-autosuggestions</a
+          >
+          plugin.
+        </li>
+        <li>
+          <strong>Editors</strong>:
+          <ul class="list-dash pl-4">
+            <li>
+              Vim, because I love the keyboard. Check out my
+              <a href="https://gist.github.com/delenamalan/a663b2d0870c966e9de9"
+                >vimrc</a
+              >.
+            </li>
+            <li>
+              <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> with the
+              Vim plugin for Python development.
+            </li>
+            <li>
+              <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+              for the rest with a handful plugins, including the Vim plugin of
+              course.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Version control</strong>: git in the terminal with some
+          aliases and <a href="https://github.com/jonas/tig">tig</a> for easily
+          viewing commit diffs.
+        </li>
+        <li><strong>Browsers</strong>: Firefox, Chrome.</li>
+        <li><strong>Search</strong>: Google, DuckDuckGo.</li>
+        <li>
+          <strong>Time tracking</strong>: <a href="toggl.com">Toggl</a> and
+          <a href="https://wakatime.com/">Wakatime</a>
+        </li>
+        <li><strong>Note taking</strong>: Markdown in Vim.</li>
+        <li>
+          <strong>Instant messaging</strong>:
+          <a href="http://rambox.pro/">Rambox</a> - one window for all of my
+          messages!
+        </li>
+        <li>
+          <strong>pdfs</strong>: On Ubuntu I like qpdfview for opening multiple
+          pdfs and Xournal for annotating them.
+        </li>
+        <li><strong>Favourites at home</strong>: vlc, inkscape, gimp.</li>
+        <li>
+          <strong>Favourites for development on a Mac</strong>:
+          <ul class="list-dash pl-4">
+            <li><a href="http://snappy-app.com/">Snappy</a> for screenshots</li>
+            <li>
+              <a href="https://www.getpostman.com/">Postman</a> for testing APIs
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
-
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

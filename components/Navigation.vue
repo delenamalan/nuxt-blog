@@ -1,12 +1,5 @@
 <template>
-  <nav
-    class="flex justify-between flex-wrap items-end px-4 pt-0 pb-0 bg-gray-800"
-  >
-    <div class="px-4 text-xl">
-      <nuxt-link to="/">
-        <h1>Delena Malan</h1>
-      </nuxt-link>
-    </div>
+  <nav class="flex justify-between flex-wrap items-end px-1 pt-1 bg-gray-800">
     <div class="flex justify-end flex-col">
       <ul class="flex">
         <li
@@ -16,7 +9,7 @@
         >
           <nuxt-link
             :to="{ name: page.name }"
-            class="outline-none inline-block py-2 px-4 rounded-t"
+            class="outline-none focus:bg-gray-800 inline-block py-2 px-4 rounded-t text-white"
             :class="isActive(page) ? active_classes : inactive_classes"
             >{{ page.display }}</nuxt-link
           >
@@ -33,6 +26,11 @@ export default {
       active_classes: ['border-b', 'border-gray-900', 'bg-gray-900'],
       inactive_classes: ['bg-gray-700'],
       navigation_pages: [
+        {
+          display: 'Delena Malan',
+          name: 'index',
+          active: true
+        },
         {
           display: 'Usesthis',
           name: 'usesthis',
