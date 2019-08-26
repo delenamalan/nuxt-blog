@@ -1,43 +1,29 @@
 <template>
-  <div class="container"></div>
+  <div>
+    <div>
+      <p>
+        Hi! I'm Delena Malan, a full-stack software engineer, from beautiful
+        Cape Town, South Africa. I currently work at a consulting company called
+        Fluenty IT.
+      </p>
+      <p>
+        I've dabbled high and low in different programming languages, frameworks
+        and industries. Currently I mostly work with Laravel and VueJS and I try
+        to keep my Python skills up to date. I also sometimes code work with
+        Ruby on Rails and NodeJS.
+      </p>
+      <p>
+        My other interests span non-fiction books, films, music, cooking,
+        podcasts and playing soccer. I am an explorer of ideas and love
+        questioning the status quo.
+      </p>
+      <p>
+        I use this site to link to some of my favourite things and to write
+        about a few things! You can also find me on StackOverflow, Twitter,
+        LinkedIn and github.
+      </p>
+    </div>
+  </div>
 </template>
 
 <script></script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

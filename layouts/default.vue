@@ -1,15 +1,19 @@
 <template>
   <div>
     <navigation></navigation>
-    <nuxt />
+    <page-body>
+      <nuxt />
+    </page-body>
   </div>
 </template>
 
 <script>
 import Navigation from '~/components/Navigation.vue'
+import PageBody from '~/components/PageBody.vue'
 export default {
   components: {
-    Navigation
+    Navigation,
+    PageBody
   }
 }
 </script>
