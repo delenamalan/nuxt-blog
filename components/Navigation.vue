@@ -1,5 +1,7 @@
 <template>
-  <nav class="flex justify-between flex-wrap items-end px-1 pt-1 bg-gray-800">
+  <nav
+    class="flex justify-between flex-wrap items-end px-1 pt-1 bg-gray-800 bg-crosses"
+  >
     <div class="flex justify-end flex-col">
       <ul class="flex">
         <li
