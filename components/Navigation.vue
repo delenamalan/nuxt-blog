@@ -1,16 +1,27 @@
 <template>
-  <div>
-    <ul class="flex">
-      <li v-for="page in navigation_pages" :key="page.name" class="-mb-px mr-1">
-        <nuxt-link
-          :to="{ name: page.name }"
-          class="outline-none focus:bg-gray-800 inline-block py-2 px-4 rounded-t text-white"
-          :class="isActive(page) ? active_classes : inactive_classes"
-          >{{ page.display }}</nuxt-link
+  <nav class="flex justify-between flex-wrap">
+    <div class="px-4 py-4 text-3xl focus:bg-gray-800">
+      <nuxt-link to="/">
+        <h1>Delena Malan</h1>
+      </nuxt-link>
+    </div>
+    <div>
+      <ul class="flex">
+        <li
+          v-for="page in navigation_pages"
+          :key="page.name"
+          class="-mb-px mr-px"
         >
-      </li>
-    </ul>
-  </div>
+          <nuxt-link
+            :to="{ name: page.name }"
+            class="outline-none focus:bg-gray-800 inline-block py-2 px-4 rounded-t"
+            :class="isActive(page) ? active_classes : inactive_classes"
+            >{{ page.display }}</nuxt-link
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
 </template>
 
 <script>
