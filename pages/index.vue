@@ -5,8 +5,8 @@
         Hi! I'm <strong>Delena Malan</strong>, a full-stack software engineer,
         from beautiful Cape Town, South Africa. I currently work at a consulting
         company called
-        <base-link href="https://www.linkedin.com/company/fluenty-it/"
-          >Fluenty IT</base-link
+        <BaseLink href="https://www.linkedin.com/company/fluenty-it/"
+          >Fluenty IT</BaseLink
         >.
       </p>
       <p>
@@ -23,14 +23,13 @@
       <p>
         I use this site to link to some of my favourite things and to write
         about a few things! You can also find me on
-        <base-link href="https://stackoverflow.com/users/3486675/delena-malan"
-          >StackOverflow</base-link
-        >,
-        <base-link href="https://twitter.com/delenamalan">Twitter</base-link>,
-        <base-link href="https://www.linkedin.com/in/delenamalan"
-          >LinkedIn</base-link
+        <BaseLink href="https://stackoverflow.com/users/3486675/delena-malan"
+          >StackOverflow</BaseLink
+        >, <BaseLink href="https://twitter.com/delenamalan">Twitter</BaseLink>,
+        <BaseLink href="https://www.linkedin.com/in/delenamalan"
+          >LinkedIn</BaseLink
         >
-        and <base-link href="https://github.com/delenamalan">github</base-link>.
+        and <BaseLink href="https://github.com/delenamalan">github</BaseLink>.
       </p>
     </div>
   </div>

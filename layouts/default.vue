@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-wrap">
-    <the-side-navigation></the-side-navigation>
+    <TheSideNavigation />
     <section class="w-5/6">
-      <the-top-navigation></the-top-navigation>
-      <page-body>
+      <TheTopNavigation />
+      <PageBody>
         <nuxt />
-      </page-body>
+      </PageBody>
     </section>
   </div>
 </template>
