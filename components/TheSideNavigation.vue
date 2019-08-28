@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  data: () => {
+  data() {
     return {
       active_classes: ['border-b', 'border-gray-900', 'bg-gray-900'],
       inactive_classes: ['bg-gray-700'],
