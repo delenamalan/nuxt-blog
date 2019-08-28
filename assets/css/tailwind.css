@@ -7,7 +7,6 @@ body {
   @apply text-white;
 }
 
-
 strong {
   /* @apply bg-green-700; */
   @apply text-green-700;
@@ -25,13 +24,6 @@ a {
 
 p {
   @apply pb-4;
-}
-
-.list-dash > li:before {
-  display: inline-block;
-  content: '-';
-  width: 1em;
-  margin-left: -1em;
 }
 
 h3 {

@@ -4,7 +4,7 @@
       <div class="page-content">
         <div>
           <h3>Blogs</h3>
-          <ul class="list-dash">
+          <ul class="list-disc">
             <li>
               <BaseLink href="https://news.ycombinator.com/"
                 >Hacker News</BaseLink
@@ -66,7 +66,7 @@
         </div>
         <div>
           <h2 id="podcasts">Podcasts</h2>
-          <ul class="list-dash">
+          <ul class="list-disc">
             <li>
               <BaseLink href="https://www.wnyc.org/shows/notetoself"
                 >Note to Self</BaseLink
@@ -117,7 +117,7 @@
         <div>
           <h2 id="books">Books</h2>
           <h3 id="non-fiction">Non-fiction</h3>
-          <ul class="list-dash">
+          <ul class="list-disc">
             <li>
               <BaseLink
                 href="https://www.goodreads.com/book/show/26114505-age-of-discovery"
@@ -202,7 +202,7 @@
         </div>
         <div>
           <h3 id="fiction">Fiction</h3>
-          <ul class="list-dash">
+          <ul class="list-disc">
             <li>
               <BaseLink
                 href="https://www.goodreads.com/book/show/24997390-a-strangeness-in-my-mind"

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <ul class="list-dash">
+      <ul class="list-disc">
         <li>
           <strong>Shell</strong>:
           <BaseLink href="https://github.com/robbyrussell/oh-my-zsh"
@@ -19,7 +19,7 @@
         </li>
         <li>
           <strong>Editors</strong>:
-          <ul class="list-dash pl-4">
+          <ul class="list-disc pl-4">
             <li>
               Vim, because I love the keyboard. Check out my
               <BaseLink
@@ -68,7 +68,7 @@
         <li><strong>Favourites at home</strong>: vlc, inkscape, gimp.</li>
         <li>
           <strong>Favourites for development on a Mac</strong>:
-          <ul class="list-dash pl-4">
+          <ul class="list-disc pl-4">
             <li>
               <BaseLink href="http://snappy-app.com/">Snappy</BaseLink> for
               screenshots
