@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-wrap">
-    <side-navigation></side-navigation>
+    <the-side-navigation></the-side-navigation>
     <section class="w-5/6">
-      <navigation></navigation>
+      <the-top-navigation></the-top-navigation>
       <page-body>
         <nuxt />
       </page-body>
@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import Navigation from '~/components/Navigation.vue'
-import SideNavigation from '~/components/SideNavigation.vue'
+import TheTopNavigation from '~/components/TheTopNavigation.vue'
+import TheSideNavigation from '~/components/TheSideNavigation.vue'
 import PageBody from '~/components/PageBody.vue'
 export default {
   components: {
-    Navigation,
-    SideNavigation,
+    TheTopNavigation,
+    TheSideNavigation,
     PageBody
   }
 }
