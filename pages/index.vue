@@ -35,8 +35,6 @@
   </div>
 </template>
 
-<script></script>
-
 <script>
 import BaseLink from '~/components/BaseLink.vue'
 export default {

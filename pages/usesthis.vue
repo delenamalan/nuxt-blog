@@ -4,12 +4,16 @@
       <ul class="list-dash">
         <li>
           <strong>Shell</strong>:
-          <a href="https://github.com/robbyrussell/oh-my-zsh">Oh-my-zsh</a>
+          <BaseLink href="https://github.com/robbyrussell/oh-my-zsh"
+            >Oh-my-zsh</BaseLink
+          >
           using the
-          <a href="http://blog.ysmood.org/my-ys-terminal-theme/">ys</a> theme
-          and the
-          <a href="https://github.com/zsh-users/zsh-autosuggestions"
-            >zsh-autosuggestions</a
+          <BaseLink href="http://blog.ysmood.org/my-ys-terminal-theme/"
+            >ys</BaseLink
+          >
+          theme and the
+          <BaseLink href="https://github.com/zsh-users/zsh-autosuggestions"
+            >zsh-autosuggestions</BaseLink
           >
           plugin.
         </li>
@@ -18,16 +22,21 @@
           <ul class="list-dash pl-4">
             <li>
               Vim, because I love the keyboard. Check out my
-              <a href="https://gist.github.com/delenamalan/a663b2d0870c966e9de9"
-                >vimrc</a
+              <BaseLink
+                href="https://gist.github.com/delenamalan/a663b2d0870c966e9de9"
+                >vimrc</BaseLink
               >.
             </li>
             <li>
-              <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> with the
-              Vim plugin for Python development.
+              <BaseLink href="https://www.jetbrains.com/pycharm/"
+                >PyCharm</BaseLink
+              >
+              with the Vim plugin for Python development.
             </li>
             <li>
-              <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+              <BaseLink href="https://code.visualstudio.com/"
+                >Visual Studio Code</BaseLink
+              >
               for the rest with a handful plugins, including the Vim plugin of
               course.
             </li>
@@ -35,20 +44,22 @@
         </li>
         <li>
           <strong>Version control</strong>: git in the terminal with some
-          aliases and <a href="https://github.com/jonas/tig">tig</a> for easily
-          viewing commit diffs.
+          aliases and
+          <BaseLink href="https://github.com/jonas/tig">tig</BaseLink> for
+          easily viewing commit diffs.
         </li>
         <li><strong>Browsers</strong>: Firefox, Chrome.</li>
         <li><strong>Search</strong>: Google, DuckDuckGo.</li>
         <li>
-          <strong>Time tracking</strong>: <a href="toggl.com">Toggl</a> and
-          <a href="https://wakatime.com/">Wakatime</a>
+          <strong>Time tracking</strong>:
+          <BaseLink href="toggl.com">Toggl</BaseLink> and
+          <BaseLink href="https://wakatime.com/">Wakatime</BaseLink>
         </li>
         <li><strong>Note taking</strong>: Markdown in Vim.</li>
         <li>
           <strong>Instant messaging</strong>:
-          <a href="http://rambox.pro/">Rambox</a> - one window for all of my
-          messages!
+          <BaseLink href="http://rambox.pro/">Rambox</BaseLink> - one window for
+          all of my messages!
         </li>
         <li>
           <strong>pdfs</strong>: On Ubuntu I like qpdfview for opening multiple
@@ -58,9 +69,13 @@
         <li>
           <strong>Favourites for development on a Mac</strong>:
           <ul class="list-dash pl-4">
-            <li><a href="http://snappy-app.com/">Snappy</a> for screenshots</li>
             <li>
-              <a href="https://www.getpostman.com/">Postman</a> for testing APIs
+              <BaseLink href="http://snappy-app.com/">Snappy</BaseLink> for
+              screenshots
+            </li>
+            <li>
+              <BaseLink href="https://www.getpostman.com/">Postman</BaseLink>
+              for testing APIs
             </li>
           </ul>
         </li>
@@ -68,3 +83,12 @@
     </div>
   </div>
 </template>
+
+<script>
+import BaseLink from '~/components/BaseLink.vue'
+export default {
+  components: {
+    BaseLink
+  }
+}
+</script>
