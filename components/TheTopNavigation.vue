@@ -7,14 +7,19 @@
         <li
           v-for="page in navigation_pages"
           :key="page.name"
-          class="-mb-px mr-px"
+          :class="isActive(page) ? active_classes : inactive_classes"
+          class="-mb-px mr-px focus:bg-gray-800 inline-block py-2 px-2 rounded-t text-white flex items-center"
         >
           <nuxt-link
             :to="{ name: page.name }"
-            class="outline-none focus:bg-gray-800 inline-block py-2 px-4 rounded-t text-white"
-            :class="isActive(page) ? active_classes : inactive_classes"
+            class="outline-none text-white"
             >{{ page.display }}</nuxt-link
           >
+          <a v-show="isActive(page)" href="/">
+            <BaseIcon
+              name="cross"
+              class="fill-current text-white h-5 w-5 pl-1 -mr-1"
+          /></a>
         </li>
       </ul>
     </div>
@@ -22,7 +27,11 @@
 </template>
 
 <script>
+import BaseIcon from '~/components/BaseIcon.vue'
 export default {
+  components: {
+    BaseIcon
+  },
   data() {
     return {
       active_classes: ['border-b', 'border-gray-900', 'bg-gray-900'],
