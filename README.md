@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
@@ -20,3 +20,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+### Resources
+
+- [Heroicons](https://github.com/sschoger/heroicons-ui/tree/master/svg)
