@@ -1,6 +1,9 @@
-# delena-blog
+# Nuxt blog
 
-> My blog
+My attempt to build a blog that looks like an IDE using 
+[Nuxt](https://nuxtjs.org/) . Not completed.
+
+![](./nuxt-blog.png)
 
 ## Build Setup
 
